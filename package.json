@@ -1,0 +1,19 @@
+{
+  "name": "html5-video-converter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:fisker/html5-video-converter.git",
+  "author": "fisker <lionkay@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node . --file=sample/oceans.mp4 --dist=dist"
+  },
+  "dependencies": {
+    "execa": "^1.0.0",
+    "ffmpeg-static": "^2.4.0",
+    "he": "^1.2.0",
+    "inquirer": "^6.2.1",
+    "mkdirp": "^0.5.1",
+    "yargs": "^12.0.5"
+  }
+}

@@ -4,7 +4,7 @@ set FFMPEG_BIN=bin\ffmpeg.exe
 set INPUT_FILE=%1
 set OUT_PUT_TYPE=video
 set SIZE=640x360
-set FFMPEG_ARGS=-b:v 1500k -b:a 128k -s %SIZE%
+set FFMPEG_ARGS=-b:v 1500k -b:a 128k -s %SIZE% -movflags faststart
 
 
 :: init window
