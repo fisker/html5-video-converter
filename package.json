@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "execa": "^1.0.0",
-    "ffmpeg-static": "^2.4.0",
+    "ffmpeg-static": "^2.7.0",
     "he": "^1.2.0",
     "inquirer": "^6.2.1",
     "mkdirp": "^0.5.1",
